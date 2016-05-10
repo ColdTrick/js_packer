@@ -1,0 +1,19 @@
+{
+	"name": "coldtrick/js_packer",
+	"description": "Compresses JS using a packer",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin", "javascript"],
+	"license": "GPL-2.0",
+	"support": {
+		"source": "https://github.com/ColdTrick/js_packer",
+		"issues": "https://github.com/ColdTrick/js_packer/issues"
+	},
+	"require": {
+		"meenie/javascript-packer": "1.1",
+		"composer/installers": "^1.0.8"
+	},
+	"require-dev": {
+		"coldtrick/sniffs": "dev-master",
+		"coldtrick/releases": "dev-master"
+	}
+}
